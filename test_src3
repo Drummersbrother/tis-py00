@@ -1,0 +1,9 @@
+# Keeps two counter, one 10 times the other one, and they're kept in the same pair of registers
+# Used as a test of the swp opcode
+@0
+add 1
+swp
+neg
+add 10
+neg
+swp

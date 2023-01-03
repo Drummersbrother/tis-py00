@@ -1,0 +1,15 @@
+# Increments all accs in node 5, run with 4*5
+@0
+mov acc, down
+nop
+mov down, acc
+@5
+start: mov up, acc
+sub 7
+jez swapper
+add 7
+swapper: add 1
+swt acc
+add 1
+swt 0
+mov acc, up

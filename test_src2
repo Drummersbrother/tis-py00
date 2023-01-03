@@ -1,0 +1,10 @@
+# Increments the acc first by 1, and then by 2
+# Used as test of relative jumps
+@0
+add 1
+jro 2
+kek:
+lmao:
+#ayyyy
+sub 1000
+add 2
